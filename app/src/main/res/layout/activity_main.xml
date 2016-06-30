@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="white">
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/ImageButton01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="record">
+        </Button>
+        <Button
+            android:id="@+id/ImageButton02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="stop">
+        </Button>
+        <Button
+            android:id="@+id/ImageButton03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="play">
+        </Button>
+        <Button
+            android:id="@+id/ImageButton04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="delete">
+        </Button>
+    </LinearLayout>
+    <TextView
+        
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="black">
+    </TextView>
+    <ListView
+        android:id="@+id/ListView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="black">
+    </ListView>
+</LinearLayout>
